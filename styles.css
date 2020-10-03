@@ -1,0 +1,329 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: 'Epilogue', sans-serif;;
+    color: #777
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+.nav ul {
+    margin: 0;
+}
+
+.nav li {
+    display: inline;
+}
+
+.nav a {
+    display: inline-block;
+    padding: .5em;
+    color: white;
+    text-decoration: none;
+}
+
+.nav a:hover {
+    background-color: tan;
+}
+
+.main-nav {
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: lighter;
+    border-bottom: 2px solid rgba(255,255,255,.6)
+}
+
+.main-nav li{
+    padding: 0 5%
+}
+
+.main-header {
+    background-color: rgba(0,0,0,.5);
+    background-image: url("header-background.jpg");
+    background-blend-mode: multiply;
+    background-size: auto;
+    padding-bottom: 10px;
+}
+
+.bakeri-name{
+    text-align: center;
+    margin: 0;
+    padding-top: 10px;
+    font-size: 4em;
+    font-weight: normal;
+    color: tan;
+}
+
+.bakeri-name-large {
+    font-size: 7em;
+}
+
+.content-section {
+    margin: 1em
+}
+
+.container {
+    max-width: 140vh;
+    margin: 0 auto;
+    padding: 0 1.5em;
+}
+
+.section-header {
+    font-weight: normal;
+    color: #333;
+    text-align: center;
+    font-size: 2.5em;
+}
+
+.about-bakeri-image {
+    float: left;
+    height: 150px;
+    margin: 15px;
+    border-radius: 20%;
+}
+.main-footer h3 {
+    color:black;
+    text-decoration: none;
+}
+.main-footer {
+    background-color: slateblue;
+    color: black;
+    padding: 1em 0;
+}
+
+.main-footer-container {
+    display: flex;
+    align-items: center;
+}
+
+.main-footer-container ul {
+    flex-grow: 2;
+    text-align: end;
+}
+
+.footer-nav li {
+    padding: 0 .5em;
+}
+
+.btn {
+    text-align: center;
+    vertical-align: middle;
+    padding: .67em;
+    cursor: pointer;
+}
+
+.btn-header {
+    display: block;
+    margin: .5em 15% 2em 15%;
+    color: black;
+    background-color: tan;
+    border: 2px solid tan;
+    border-radius: 10px;
+    font-size: 1.5em;
+    font-weight: lighter;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+.btn-header:hover {
+    background-color: saddlebrown;
+    border: 2px solid saddlebrown;
+}
+
+.btn-play {
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+    font-size: 4em;
+    padding: 0;
+    width: 100px;
+    height: 100px;
+}
+
+.varer-row {
+    border-bottom: 1px solid black;
+    padding-bottom: 1em;
+    margin-bottom: 1em;
+}
+
+.varer-row:last-child {
+    border-bottom: none;
+}
+
+.varer-item {
+    display: inline-block;
+    padding-right: .5em;
+}
+
+.varer-nummer {
+    color: #555;
+    font-weight: bold;
+    width: 16%;
+}
+
+.varer-name {
+    width: 30%;
+}
+
+.varer-allergy {
+    width: 30%;
+}
+
+.varer-btn {
+    max-width: 20%
+}
+
+.btn-primary {
+    padding-left: 1em;
+    padding-right: 1em;
+    color: white;
+    background-color: tan;
+    border: none;
+    border-radius: 1.3em;
+    font-weight: bold;
+}
+
+.btn-primary:hover {
+    background-color: saddlebrown;
+}
+
+.shop-item {
+    margin: 30px;
+}
+
+.shop-item-title {
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.shop-item-image {
+    height: 250px;
+    width: 250px;
+}
+
+.shop-item-details {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+
+.shop-item-price {
+    flex-grow: 1;
+    color: #333;
+}
+
+.shop-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.cart-header {
+    font-weight: bold;
+    font-size: 1.2em;
+    color: #333;
+}
+
+.cart-column {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid black ;
+    margin-right: 1.5em;
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+
+.cart-row {
+    display: flex;
+}
+
+.cart-item {
+    width: 45%;
+}
+
+.cart-price {
+    width: 20%;
+    font-size: 1.2em;
+    color: #333;
+}
+
+.cart-quantity {
+    width: 35%;
+}
+
+.cart-item-title {
+    color: #333;
+    margin-left: .5em;
+    font-size: 1.2em;
+}
+
+.cart-item-image {
+    width: 75px;
+    height: 75px;
+    border-radius: 10px;
+}
+
+.btn-danger {
+    color: white;
+    background-color: red;
+    border: none;
+    border-radius: .3em;
+    font-weight: bold;
+}
+
+.btn-danger:hover {
+    background-color: #CC4C4C;
+}
+
+.cart-quantity-input {
+    height: 34px;
+    width: 50px;
+    border-radius: 5px;
+    border: 1px solid saddlebrown;
+    background-color: #eee;
+    color: #333;
+    padding: 0;
+    text-align: center;
+    font-size: 1.1em;
+    margin-right: 25px;
+}
+
+.cart-row:last-child {
+    border-bottom: 1px solid black;
+}
+
+.cart-row:last-child .cart-column {
+    border: none;
+}
+
+.cart-total {
+    text-align: end;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.cart-total-title {
+    font-weight: bold;
+    font-size: 1.5em;
+    color: black;
+    margin-right: 20px;
+}
+
+.cart-total-price {
+    color: #333;
+    font-size: 1.1em;
+}
+
+.btn-purchase {
+    display: block;
+    margin: 40px auto 80px auto;
+    font-size: 1.75em;
+}
